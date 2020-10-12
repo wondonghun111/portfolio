@@ -1,0 +1,378 @@
+@charset "UTF-8";
+body {
+    background-color: #fff;
+    font-family: "나눔고딕", "NanumGothic", Nanum Gothic, sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+/*로그인 폼 중앙에 위치하게 하기*/
+/*로그인 폼 레이아웃 */
+.login_page_wrap {
+    position: relative;
+    padding: 148px 0;
+    min-width: 1200px;
+    min-height: 516px;
+    background-image: linear-gradient(120deg, #f1c40f, #d35400);
+    background-size: cover;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/*로고*/
+.login_page_wrap h1 {
+    text-align: center;
+    padding: 0 0 0;
+}
+
+/*로고 아래 회사명 및 로그인 글씨 배치*/
+.login_page_wrap h2 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    /*로그인 폼 레이아웃 기준으로 padding-top을 줌*/
+    font-weight: normal;
+}
+
+.login_page_wrap .login_box {
+    margin: 0 auto;
+    padding-bottom: 18px;
+    width: 390px;
+    min-height: 496px;
+    background-color: #fff;
+    border: 1px solid #dedcdc;
+}
+
+.login_page_wrap .login_box .side1 {position: relative; 
+    perspective: 600px; display: block; padding: 0;}
+
+.side1 .front {
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+
+.side1 .front img {
+  width: 100%; height: 100%;
+}
+.side1 .back { 
+    position: absolute; top: 0; left: 0;
+    width: 80%; height: 95%; z-index: -1;
+    margin-left: 40px;
+    transform-style: preserve-3d;
+    color: #fff;
+    background: linear-gradient(120deg,#f1c40f,#f39c12);
+    transform: rotateY(-180deg);
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+.side1 .back i{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); font-size: 70px;}
+
+.side1:hover .front {transform:rotateY(180deg);}
+
+.side1:hover .back{transform:rotateY(0deg); z-index: 1;}
+
+.login_page_wrap .login_box h1 span {
+    display: inline-block;
+    position: relative;
+    padding-top: 4px;
+    height: 56px;
+    line-height: 56px;
+}
+
+.login_page_wrap .login_box h1 span:before {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    margin-left: -20px;
+    width: 40px;
+    height: 1px;
+    background: #dadada;
+    content: "";
+}
+
+.login_page_wrap .login_box h1 span strong {
+    font-weight: normal;
+    color: #1c81ff;
+}
+
+
+/*버튼 박스*/
+.login_page_wrap .login_box .ipt_id,
+.login_page_wrap .login_box .ipt_pw {
+    display: block;
+    margin: 0 auto 10px;
+    padding: 20px 18px;
+    width: 280px;
+    height: 18px;
+    border: 1px solid #e7e7e7;
+    transition: border .3s;
+}
+
+.login_page_wrap .login_ok {
+    display: block;
+    margin: 0 auto 24px;
+    width: 318px;
+    height: 60px;
+    background: linear-gradient(120deg,#ff7675,#e84393,#dfe6e9);
+    background-size: 200%; 
+    border: 1px solid #1b7df8;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color .3s, border-color .3s;
+    transition: 0.5s
+}
+/*버튼 호버 이펙트*/F
+.login_page_wrap .login_ok:hover {
+  background-position: right;
+}
+
+.login_page_wrap .login_box ul.list {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.login_page_wrap .login_box ul.list {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.login_page_wrap .login_box ul.list li {
+    display: inline-block;
+    padding: 0 14px;
+    height: 14px;
+    border-left: 1px solid #a1a1a1;
+    text-align: center;
+    line-height: 14px
+}
+
+.login_page_wrap .login_box ul.list li:first-child {
+    border-left: none
+}
+
+.login_page_wrap .login_box ul.list li a {
+    text-decoration: none;
+    color: #6f6f6f
+}
+
+.login_page_wrap .login_box ul.list li a:hover {
+    color: #343434
+}
+
+.login_page_wrap .com_sns {
+    position: relative;
+}
+
+.login_page_wrap .com_sns:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    content: '';
+    width: 40px;
+    height: 1px;
+    overflow: hidden;
+    background: #dadada;
+    margin: 0 auto;
+}
+
+.login_page_wrap .com_sns .label {
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    padding: 5px 0 0;
+}
+
+.login_page_wrap .com_sns ul {
+    font-size: 0;
+    text-align: center;
+}
+
+.login_page_wrap .com_sns ul li {
+    display: inline-block;
+    width: 38px;
+    height: 32px;
+}
+
+.login_page_wrap .com_sns ul li a {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    text-indent: -10000em;
+    background: url(//dasdas123.dothome.co.kr/PROJECT/img/icon_sns.png) no-repeat left top;
+    margin: 0 4px;
+}
+
+.login_page_wrap .com_sns ul li a:hover {
+    animation: ff14_sns_shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+.login_page_wrap .com_sns ul li a.instagram {
+    background-position-x: -32px;
+}
+
+.login_page_wrap .com_sns ul li a.facebook {
+    background-position-x: -64px;
+}
+
+.login_page_wrap .com_sns ul li a.youtube {
+    background-position-x: -96px;
+}
+
+.login_page_wrap .com_sns ul li a.twitter {
+    background-position-x: -128px;
+}
+
+.login_page_wrap .com_sns ul li a.naverpost {
+    background-position-x: -160px;
+}
+
+/*경고창*/
+.sign_error {
+	text-align: center;
+	margin-bottom: 15px;
+	color :red;
+}
+
+/* footer */
+.footer {
+    padding-bottom: 104px
+}
+
+.footer .ft_bar {
+    padding: 12px 0;
+    height: 14px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.footer .ft_bar > .wrap:after,
+.footer > .wrap:after,
+.footer > .wrap .ft_lbox:after {
+    display: block;
+    clear: both;
+    content: ""
+}
+
+.footer .ft_bar > .wrap > ul {
+    float: left
+}
+
+.footer .ft_bar > .wrap > ul > li {
+    display: inline-block;
+    padding: 0 14px 0 15px;
+    border-left: 1px solid #b5b5b5;
+    font-family: Tahoma, "돋움", "Dotum", sans-serif;
+    font-size: 12px
+}
+
+.footer .ft_bar > .wrap > ul > li:first-child {
+    padding-left: 0;
+    border-left: none
+}
+
+.footer .ft_bar > .wrap > ul > li a {
+    text-decoration: none;
+    color: #000
+}
+
+.footer .ft_bar > .wrap > ul > li a:hover {
+    text-decoration: underline
+}
+
+.footer .ft_bar > .wrap .socialmedia {
+    float: right;
+    padding: 1px 0;
+    height: 14px;
+    text-align: right
+}
+
+.footer .ft_bar > .wrap .socialmedia > input[type=button] {
+    margin-left: 8px;
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position-y: -48px;
+    background-color: #fff;
+    border: none;
+    text-indent: -99999px;
+    cursor: pointer
+}
+
+.footer .ft_bar > .wrap .socialmedia > input[type=button].sm_fb {
+    background-position-x: -82px
+}
+
+.footer .ft_bar > .wrap .socialmedia > input[type=button].sm_tw {
+    background-position-x: -96px
+}
+
+.footer .ft_bar > .wrap .socialmedia > input[type=button]:hover {
+    background-position-y: -62px
+}
+
+.footer > .wrap {
+    padding-top: 32px
+}
+
+.footer > .wrap .ft_lbox {
+    float: left
+}
+
+.footer > .wrap .ft_lbox .ft_logo {
+    float: left;
+    margin: 0 34px 0 0;
+    width: 78px;
+    height: 47px;
+    background: url("//dasdas123.dothome.co.kr/PROJECT/img/kakao.png") no-repeat 0 0;
+    background-size: 80px 50px;
+    text-indent: -99999px
+}
+
+.footer > .wrap .ft_lbox .ft_info {
+    float: left;
+    height: 58px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #575757
+}
+
+.footer > .wrap .ft_lbox .ft_info > a {
+    color: #575757
+}
+
+.footer > .wrap .ft_lbox .ft_info > a:hover {
+    color: #000
+}
+
+.footer > .wrap .ft_rbox {
+    float: right
+}
+
+.footer > .wrap .ft_rbox .ft_logo {
+    width: 200px;
+    height: 20px;
+    background: url("//dasdas123.dothome.co.kr/PROJECT/img/kakaoM.png") no-repeat 0;
+    background-size: 130px 100px;
+    text-indent: -99999px;
+    margin-top: 10px
+}
+.footer .link_kakao{color:#000}
+.footer .link_kakao:hover{text-decoration:underline}
+/*captcha*/
+
+.login_page_wrap .login_box .ipt_code{display:block;margin:0 auto 20px;padding:9px 18px;width:280px;height:14px;border:1px solid #e7e7e7;transition:border .3s}
+    .login_page_wrap .login_box .ipt_code:focus{border-color:#1c81ff}
+    .BDC_CaptchaDiv{position:relative;margin:20px auto 5px;}
+    .BDC_CaptchaIconsDiv{position:absolute;right:0;top:0}

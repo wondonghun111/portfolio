@@ -1,0 +1,360 @@
+@charset "utf-8";
+.sp_loginout{background-image:url(https://nstatic.dcinside.com/dc/w/images/sp/sp_loginout.png);background-repeat:no-repeat}
+.login_wrap #container{margin-top:37px}
+.weight_nmal{font-weight:normal}
+.h283,.con_box.brd.h283{min-height:283px}
+/*로그인 정보 입력 페이지*/
+.content.login{margin:205px auto 233px}
+.login_wrap .login_page{width:700px;height:300px;margin:0 auto ;border:2px #3c4790 solid;border-radius:3px}
+.login_inputbox{float:left;background:#fff}
+.login_inputbox .int.bg{height:41px;border:none}
+.login_inputbox .inner{width:290px;padding:25px 56px 0}
+.login_inputbox .inner input:first-of-type,.bg_box .form_box input:first-of-type{margin-top:0px}
+.login_inputbox .inner input.id:first-of-type{margin-top:20px}
+.login_inputbox .inner input,.bg_box .form_box input{margin-top:7px}
+.ban_box{float:right;width:298px;background:#f3f3f3}
+.ban_box .inner{width:250px;height:250px;margin:25px auto 25px}
+.ban_box .inner img{max-width:100%}
+.idip_checkbox{margin-top:10px}
+.idip_checkbox .checkbox{float:left}
+.idip_checkbox .checkbox.type1 label{vertical-align:-2px}
+.chk_ip{float:right;margin:2px 0 0 3px;color:#555}
+.chk_ip .ip{display:inline-block;width:17px;height:13px;margin-right:6px;line-height:11px;vertical-align:text-bottom;
+  background-position:-27px -73px}
+.chk_ip .ip.on{background-position:0px -73px}
+.logon_option{border-top:1px #aaa dashed;margin-top:16px;padding-top:15px;text-align:center}
+.logon_option a{font-size:14px;color:#000}
+.logon_option a::before{content:"|";display:inline-block;font-size:14px;color:#d7d7d7;padding:0 11px 0 6px}
+.logon_option a:first-child::before{display:none}
+.capslockMsg{border: 1px solid #dbdbdb; margin: 10px 5px 10px 5px; padding: 5px; background: #aaabad;}
+
+
+/*캡챠코드*/
+.kcapcode_box input[type=password]::-ms-reveal{display:none}
+.kcapcode_box input[type=text]::-ms-clear{display:none}
+.login_wrap .login_page.kap_codewrap{height:348px}
+.kcapcode_box{margin-top:7px}
+.input_kcapcode{float:left;border:1px #ccc solid;border-right:none;width:124px}
+.login_kapcode{float:left;vertical-align:top}
+.inp_txt.txt_placeholder{overflow:hidden;position:absolute;width:106px;height:39px;line-height:37px;padding:0 9px;font-size:14px;color:#999}
+.inp_txt{width:106px;height:39px;line-height:37px;padding:0 9px;font-size:14px;color:#555;border:none;background:transparent}
+.login .kap_codeimg{width:163px;border:1px #ccc solid;margin-top:0;font-size:0;line-height:0}
+.login .kap_codeimg img{width:124px;height:39px}
+.btn_recode{width:39px;height:39px;border-left:1px #ccc solid;background:#f7f7f7;vertical-align:top}
+.icon_recode{display:inline-block;width:20px;height:20px;background-position:-21px -90px;margin-top:3px}
+.kap_codewrap .ban_box .inner{height:252px;margin:48px auto 48px}
+.login_wrap .rightbanner{width:250px;height:250px}
+
+/*페이지 메뉴*/
+.page_menu{margin:0 0 37px -8px}
+.page_menu li{float:left;width:50%}
+.page_menu.three li{width:33.3%}
+.page_menu.four li{width:25%}
+.pmenu{display:block;height:56px;line-height:56px;margin-left:8px;border:2px #aaabab solid;border-radius:10px;background:#aaabab;font-size:16px;color:#fff;text-align:center;text-shadow: 0px -1px #909292}
+.pmenu.on{border-color:#000;background:#fff;color:#000;font-weight:bold;text-shadow:none}
+
+/*아이디 찾기*/
+.login_wrap .con.innerbox .bg_box{margin-bottom:0;padding:46px 0 46px}
+.login_wrap .member_out .con.innerbox .bg_box{margin-bottom:0;padding:36px 0 42px}
+.login_wrap .info_txt{padding-top:0;margin-top:8px;color:#333;line-height:22px}
+.userid,.useremail{margin-top:9px;font-size:16px;color:#3c4790;font-weight:bold}
+.useremail{text-decoration:underline}
+.joinday{margin:5px 0 3px}
+.name_auth_search a{color:#3c4790;text-decoration:underline;font-weight:bold}
+
+/*실명인증 아이디 찾기*/
+.con.auth_idsearch{width:555px;padding:59px 0 0}
+.con.auth_idsearch .tit{letter-spacing:0.7px}
+.con.auth_idsearch .bg_box{margin-bottom:73px;padding-bottom:40px}
+.con.auth_idsearch .bg_box >div > b{letter-spacing:0.9px}
+.auth_box{width:335px;margin:15px auto 0}
+.auth_box .int.nmauth{width:210px;float:left}
+.id_list{overflow-y:scroll;width:398px;height:141px;padding:12px 15px 4px;margin:15px auto 0;background:#fff;border:1px #cecdce solid;font-size:12px}
+.id_list li{padding-top:4px}
+.id_list li:first-child{padding-top:0px}
+.id_list li::after{content:"";visibility:hidden;clear:both;display:block}
+.idlist_sel{float:left;width:265px;text-align:left}
+.sch_joinday{float:right;line-height:20px}
+.login_wrap .auth_idsearch .btn_box{margin-top:10px}
+.auth_idsearch .btn_box > a{display:inline-block;width:208px;margin-left:4px}
+.auth_idsearch .btn_box > a:first-child{width:205px;margin-left:1px}
+.id_list .radiobox{line-height:20px;letter-spacing:0}
+.id_list .radiobox input + .checkmark{top:3px}
+.id_list .radiobox input{top:3px}
+.id_list .radiobox input:checked + .checkmark{top:3px}
+.id_list .radiobox input[type="radio"]{top:3px}
+/*비밀번호 재발급*/
+.code_box{width:335px;margin:18px auto 0}
+.code_inputbox{float:left;width:208px;border:1px #000 solid}
+.code_input{float:left;width:137px;height:33px;line-height:33px;padding:0 9px;border:none;background:#fff;font-size:14px}
+.btn_codeok{float:right;width:53px;height:33px;border-left:1px #000 solid;background-image:linear-gradient(120deg, #f1c40f, #d35400);color:#fff;font-weight:bold;text-shadow: 0px -1px #000}
+.btn_white.small.btn_recode{float:left;width:120px;height:35px;line-height:35px;border-radius:0;margin-left:5px;}
+.btn_white.small.btn_change{float:right;width:150px;height:35px;line-height:35px;border-radius:0;margin-left:7px}
+.time{margin-top:14px;font-size:14px;color:#555}
+/*실명인증 비밀번호 재발급*/
+.auth_repw{width:594px}
+.auth_repw .auth_box{width:420px}
+.auth_repw .idauth{float:left;width:170px;margin-right:5px}
+.auth_repw .auth_box .int.nmauth{width:120px}
+.auth_repw.info_txtbox{width:646px}
+.auth_repw.info_txtbox .btn_box{text-align:center;margin-top:30px}
+.auth_repw.info_txtbox .btn_box button{width:100px;height:35px;line-height:35px}
+.con.auth_repw > h4.tit{padding-left:10px}
+.con.auth_repw .info_txt{padding-left:20px}
+.con.auth_repw.info_txtbox > h4.tit{padding-left:0}
+.con.auth_repw.info_txtbox .info_txt{padding-left:9px}
+.report_go{text-decoration:underline;color:#3c4790}
+
+/*기본정보 변경*/
+.changform_box{width:675px;margin:0 auto}
+.changform_box.email_auth{width:730px}
+.info_change .con.center .tit,.member_out .con.center .tit{font-size:14px}
+.login_wrap .con.center{padding-top:116px;color:#333;line-height:22px}
+.login_wrap .con.center .int[type="password"]{margin-top:12px}
+.login_wrap .btn_box{margin-top:25px}
+.btn_blue.btn_ok{width:100px}
+.btn_blue.member_out_btn,.btn_grey.member_out_btn{width:100px}
+.con.changform_box.email_auth form{padding-left:11px}
+.email_auth >h4.tit{border-bottom:1px #aaa dashed;padding-bottom:28px;margin-bottom:35px}
+.email_auth .agree_box{padding:34px 0 0 11px;margin-top:40px}
+.email_auth .btn_white.small.btn_change{font-size:14px}
+.info_change .btn_nickch{font-weight: bold;text-decoration: underline;color: #343d8e;letter-spacing: -0.025em;margin-left: 8px;vertical-align: top} /*200715 닉네임변경하기 버튼 추가*/
+.info_change .subject_select .select_area{background: #fff;} /*200715*/
+.info_change .subject_select .select_area.bg{background: #f3f3f3;} /*200715*/
+
+/*회원탈퇴*/
+.login_wrap .member_out .form_group{margin-top:0}
+.login_wrap .member_out .form_tit{width:90px;height:25px;line-height:25px;text-align:left}
+.member_out .form_txt{width:450px;min-height:25px;line-height:25px;text-align:left;font-size:14px;color:#3c4790}
+.member_out .form_txt b{font-size:14px;color:#3c4790}
+.login_wrap .member_out .input .form_tit{height:35px;line-height:35px}
+.sel_reason.subject_select.select_box{margin:0}
+.sel_reason.subject_select .select_area{width:429px;background:#fff;font-weight:normal;color:#555;padding:0 8px 0 8px}
+.reason_write{width:435px;height:88px;padding:5px;background:#f3f3f3;border:1px #cecdce solid;resize:none}
+.reason_write:focus,.reason_write.in{background:#fff}
+.bg_box .input .form_group{margin-top:7px}
+.bg_box .input .form_group:first-child{margin-top:0}
+.bg_box .info,.bg_box .input{width:540px;margin:0 auto}
+.bg_box .input{margin-top:9px}
+.btn_blue.smallest.btn_gallog_go{display:inline-block;width:97px;height:16px;line-height:18px;text-align:center;margin-left:7px}
+.btn_blue.smallest.btn_gallog_go:hover{text-decoration:none}
+.under_txt{text-decoration:underline}
+.bye_box{margin-top:-35px}
+.bye_box img{border-radius:0 0 4px 4px;line-height:0;vertical-align:bottom;}
+
+.blue_box{display:table;padding:126px 0 148px;margin:0 auto}/**/
+.blue_box .inner{display:table-cell;;padding-left:22px;vertical-align:middle}/**/
+
+/*성인인증*/
+.adult_wrap .con_box{margin:117px 0 152px}
+.adult_wrap .blue_box{}
+.adult_img{display:table-cell;width:150px;height:150px;background-position:-81px -436px}
+.adult_wrap .blue_box .inner{max-width:515px}
+.box_infotxt{margin:0px 0 12px;font-size:14px;color:#333;line-height:22px;text-align:left}
+.blue_box .btn_box{margin-left:-3px;text-align:left}
+.blue_box .btn_box a{display:inline-block;width:108px;height:24px;padding:0;margin-left:2px;line-height:24px;text-align:center;border-radius:15px;font-size:14px}
+.blue_box .btn_box a:first-child{margin-left:0}
+.blue_box .btn_box a:hover{text-decoration:none}
+/*접속불가*/
+.noaccess_wrap .con_box{margin:117px 0 152px}
+.noaccess_wrap .blue_box{}
+.noacs_img{display:table-cell;;width:130px;height:130px;background-position:-0px -590px}/**/
+.box_infotxt.over_user{margin:0}
+.box_infotxt.no_page{margin:0}
+/*여성 전용*/
+.woman_wrap .blue_box{display:block }
+.woman_wrap .blue_box .inner{max-width:515px}
+.woman_wrap .con_box{margin:117px 0 171px}
+.woman_wrap .blue_box{padding:93px 0 25px}
+.woman_gall{display:table;margin:0 auto}
+.woman_img{display:table-cell;width:150px;height:150px;background-position:-150px -590px}
+.woman_infobox{clear:both;width:750px;padding:18px 32px;margin:82px auto 0;border-radius:2px;color:#555;line-height:20px}
+.woman_gall  .box_infotxt {margin:0 0 12px}
+/*게시글 삭제*/
+.delet_wrap .con_box{margin:117px 0 152px}
+.delet_wrap .blue_box{}/**/
+.box_infotxt.delet{margin:0px 0 0}/**/
+.box_infotxt.delet > strong{display:block; font-size:16px;margin-bottom:8px}
+.box_infotxt.delet > strong + p b{line-height:24px}
+
+.delet_wrap .blue_box .inner,.noaccess_wrap .blue_box .inner{max-width:450px}/**/
+
+/*약관*/
+.policy_wrap .bottom_btn_box{padding-top:5px}
+.policy_wrap .cont_head{position:relative}
+.policy_wrap .head_tit a, .policy_wrap .head_tit{vertical-align:top}
+.head_tit .headmenu{color:#999}
+.head_tit .headmenu:hover{text-decoration:none}
+.head_tit .headmenu > span:hover{text-decoration:underline}
+.head_tit .headmenu.on{color:#3c4790}
+.headmenu::before{content:"|";font-size:14px;color:#ccc;font-weight:normal;margin:0 10px 0 8px}
+.headmenu:first-child::before{display:none}
+.btn_blue.smallest.btn_prev_go{display:inline-block;height:16px;padding:0 12px;line-height:18px;text-align:center;margin-left:4px}
+.btn_blue.smallest.btn_prev_go:hover{text-decoration:none}
+.start_date{position:relative;height:18px;color:#555}
+.start_date .inner{position:absolute;top:12px;right:0}
+.policy_cont{padding:26px 23px;color:#555;line-height:21px}
+.policy_cont strong{display:block;margin-top:13px}
+.policy_cont strong:first-child{margin-top:0}
+.policy_cont.privacy strong:first-child{margin-top:13px}
+.policy_cont.privacy li:first-child strong{margin-top:0}
+
+.policy_cont strong.stit{margin-top:7px}
+.policy_cont ol > li > ol{margin-left:5px}
+
+.navlist{overflow:hidden;background:#f9f9f9;padding:22px 24px;margin:25px 0;line-height:24px}
+.navlist::after{clear:both;display:block;visibility:hidden;content:""}
+.policy_cont .navlist a{text-decoration:none}
+.policy_cont .navlist a:hover{text-decoration:underline}
+ol > li,ul > li{margin-bottom:5px}
+.privacy ol>li>ol>li,.privacy ol>li>ul>li{margin-bottom:5px}
+ol>li>ul>li, ol>li>ol>li,.privacy ol>li>ul>li>ol>li{margin-bottom:0px}
+
+.privacy .list{float:left;width:50%}
+.privacy .list > li{margin-bottom:0}
+.privacy .list li a{color:#d31900}
+.policy_table{width:100%;text-align:center;margin:10px 0 35px 0}
+.policy_table th,.policy_table td{border:1px #ddd solid;vertical-align:middle;color:#555}
+.policy_table th{height:40px;background:#f3f3f3}
+.policy_table tr:first-child td{border-top:none}
+.policy_table td{padding:15px}
+.manager_info{overflow:hidden;padding:19px 24px 18px;margin:20px 0;background:#f3f3f3}
+.manager_cont{float:left;width:50%;line-height:24px}
+.policy_cont.privacy .manager_info strong{margin-top:0}
+.policy_cont a{color:#3c4790;text-decoration:underline}
+
+
+/*이메인 인증 전환*/
+.btn_blue.small.btn_mail_certify{display:block;width:190px;height:35px;line-height:35px;margin:27px auto 0}
+.con.email_change{width:733px;margin:0 auto;padding:58px 0 31px}
+.email_change .bg_box{padding:41px 33px 44px;text-align:left;font-size:12px}
+.login_wrap .email_change .form_group.email{margin-top:10px}
+.login_wrap .email_change .form_tit{width:147px}
+.chk_option{padding-left:20px;margin:7px 0 11px;color:#666;line-height:19px}
+.con.email_change .tit{padding-left:2px}
+.email_change .info_txt{padding-left:3px}
+.agree_box{border-top:1px #aaa dashed;padding-top:26px;margin-top:26px;font-size:11.65px;letter-spacing:-0.02em}
+.agree_box label{margin-left:3px}
+
+.mb10{margin-bottom:10px}
+.mb5{margin-bottom:5px}
+.mt25,.login_wrap .info_txt.mt25{margin-top:25px}
+
+
+/* 2단계 로그인 */
+.user_info.otp_width strong{max-width: 180px;}
+.sp_otp{background-image: url(https://nstatic.dcinside.com/dc/w/images/sp/sp_otp.png);background-repeat: no-repeat}
+.security_center .otp_tit, .security_center .push_tit{color: #d31900;font-size: 14px;font-weight: bold;letter-spacing: -0.025em;margin-top: 23px;line-height: 20px;} /*200720*/
+.security_center .con_box{margin-top: 18px}
+.security_center .btn_box{margin-top: 18px}
+.security_center .btn_blue{width: 100px;height: 38px;border-width: 1px;border-radius: 2px;line-height: 37px}
+.security_center .btn_box button:first-child{margin-left: 0}
+
+.otp{padding: 100px 0 58px;text-align: center;letter-spacing: -0.025em;padding-top: 81px;} 
+.otp map area{outline: 0}
+.otp input{ color: #555;border: 0}
+.otp button{margin: 0;padding-right: 0}
+.otp .tit{font-size: 16px;font-weight: bold;color: #333;line-height: 29px;display: block}
+.otp .txt, .mail .txt{font-size: 14px;color: #333;line-height: 26px} 
+.otp .txt.info{font-weight: bold;line-height: normal}
+.otp .btn_box .btn_ipin, 
+.otp .btn_box .btn_phone,
+.otp .btn_box .btn_mail{display: inline-block;box-sizing: border-box; width: 170px;line-height: 24px; border-radius: 16px;color: #fff;background: #ee3c24;border: 1px solid #ee3c24;text-decoration: none;font-size: 14px;margin-left: 6px;letter-spacing: 0.01em}
+.otp .btn_box .btn_phone{background: #005952;border-color: #003e39;text-shadow: 0px -1px #003e39}
+.otp .btn_box .btn_mail{background:#004a80;border-color:#003d6a;text-shadow: 0px -1px #00345a}
+.otp .btn_box a:first-child{margin-left: 0}
+.otp .code_wrap{margin-top: 24px;text-align: center}
+.otp .code_wrap .inp_box{border: 1px solid #3c4790;width: 260px;height: 35px;box-sizing: border-box;margin: 33px auto 0}
+.otp .code_wrap .inp_box input{float: left;width: 172px;height: 33px;padding: 0 10px;box-sizing: border-box;font-size: 14px}
+.otp .code_wrap .inp_box button{float: right;width: 86px;height: 33px;line-height: 32px; border-width: 0 0 0 1px;border-radius: 0;padding: 0}
+
+.otp.appinfo{padding-top: 10px;letter-spacing: 0}  
+.otp.appinfo .appinfo_img{line-height: 0}
+.otp.appinfo .btn_box{margin-top: 36px} 
+
+.con_box.brd.code_table{width: 100%;height: 438px;} 
+.otp.qrcode{padding: 70px 0 74px;padding: 0;} 
+.otp.qrcode .txt{text-align: left;font-weight: bold;line-height: 22px;width: 533px;margin: 0 auto}
+.otp.qrcode .btn_tip_click{color: #d31900;text-decoration: underline;font-size: 14px;font-weight: bold;margin-top: -4px}
+.otp.qrcode .qrcode_tip{font-weight: normal;padding-left: 20px}
+.otp.qrcode .qrcode_tip .code_txt{margin-right: 10px}
+.otp.qrcode .qrcode_tip .tip_txt{color: #999;font-size: 12px;margin-right: 4px}
+.otp.qrcode .qrcode_tip .btn_close{color: #999;text-decoration: underline;margin-top: -1px}
+.otp.qrcode .qrcode_box{width: 152px;height: 152px;box-sizing: border-box; border: 1px solid #000;margin: 0 auto;overflow: hidden}
+.otp.qrcode .qrcode_box img{width: auto;height: 100%;max-height: 150px}
+
+.otp.done{padding-top: 70px} 
+.mail.done{padding-top: 66px} 
+.otp.done .tit, .mail.done .tit{font-size: 16px;line-height: 26px} 
+
+.otp.cancel{padding-top: 55px} 
+.otp.cancel_done, .otp.cancel_login{padding-top: 49px} 
+.otp.cancel_done button{width: 290px;height: 35px;line-height: 35px;font-weight: normal}
+.otp.cancel_login .code_wrap{margin-top: 15px}
+.otp.cancel_login .inp_box{margin: 0 auto;width: 367px}
+.otp.cancel_login .inp_box button{width:193px}
+
+.otp_login{letter-spacing: -0.025em;color: #333}
+.otp_login .twostep_tit{margin-top:0}
+.otp_login .login_inputbox>.inner{padding: 27px 55px 0 57px;}
+.otp_login .txt_box .tit,.otp_login .txt_box p{line-height: 22px}
+.otp_login .tit{font-size: 14px;font-weight: bold;}
+.otp_login .txt_box .tit{font-size: 16px;font-weight: bold;} 
+.otp_login .inp_code{margin-top: 7px} /*200731 수정*/
+.otp_login .btn_blue{border-width: 1px;border-radius: 0;height: 41px;font-size: 14px;line-height: 41px;width: 93px;margin-left: 3px;} 
+
+.otp_checkbox{margin-top: 13px} /*200806 수정*/
+.otp_checkbox>.checkbox{padding-left: 20px;letter-spacing: -0.025em}
+.otp_login .otp_cancel_go{margin-top: 9px} 
+.otp_login .mail_cancel_go{margin-top: 7px} 
+.otp_login .otp_cancel_go a, .otp_login .mail_cancel_go a{color: #3c4790;text-decoration: underline} 
+
+.otp_app{border-top: 1px dashed #aaa;margin-top:13px;padding-top:13px;height: 32px;line-height: 32px}
+.otp_app .tit{letter-spacing: -0.075em;vertical-align: top;float: left;margin-right: 8px}
+.otp_app .tit ~ a{float: right;height: 32px}
+.otp_app .tit + a{float: left}
+
+/*200720 이메일인증로그인 추가*/
+.security_center .con_box.brd.h400{height: 398px}
+.security_center .con_box.brd.h440{height: 438px}
+.security_center .con_box.brd.h469{height: 467px}
+.security_center .con_box.brd.h489{height: 487px}
+.security_center .sub_tit{font-size: 14px;text-align: left;padding: 31px 35px;font-weight: bold}
+.mail_login.inner{width: 580px;margin: 0 auto}
+.mail_login.inner .info_txt{text-align: left;padding-left: 10px;margin-top: 5px}
+.mail_login.inner .info_txt li{margin-bottom: 0}
+.mail_login.inner .info_txt li::before{content:"";display:inline-block;width:2px;height:2px;background:#333;vertical-align:4px;margin:0 6px 0 -8px}
+.mail_login.inner .cancel_top{text-align: left;color: #333;margin-top: 5px}
+.mail_login.inner .cancel_top .tit{font-size: 16px;line-height: 26px}
+.mail_login.inner .cancel_top .txt{line-height: 24px;font-size: 14px}
+.mail_login.inner .cancel_top + .info_txt{margin-top: 2px} 
+.mail_login.inner .box{width:100%;height:230px;padding:42px 20px;background:#f3f3f3;color:#555;box-sizing: border-box;margin-top: 26px}
+.mail_login.inner .box .code>p{font-weight: normal;margin-top: 10px}
+.mail_login.inner .mail_txt{text-decoration: underline;color: #3c4790;margin-top: 6px}
+
+.otp_login .otp_cancel_go a::before, .otp_login .mail_cancel_go a::before{content:"";display:inline-block;width:1px;height:11px;margin:0 11px 0 9px;vertical-align:-1px;background:#d7d7d7}
+.otp_login .otp_cancel_go a:first-child::before, .otp_login .mail_cancel_go a:first-child::before{display: none}
+.otp_login .otp_tit{color: #d31900;font-size: 14px;font-weight: bold;letter-spacing: -0.025em;line-height: 26px}
+.otp_login .inp_code input{width: 190px}
+.otp_login .inp_code p{margin-top: 13px;margin-bottom: -4px;} /* 200806 line-height 삭제, margin-top 수정 */
+.otp_login .login_inputbox{display: table;height: 300px;width: 402px}
+.otp_login .login_inputbox .inner{display: table-cell;vertical-align: middle;padding: 0 55px 0 57px}
+.otp_login .mail_txt{color: #343d8e;text-decoration: underline}
+.otp_login .mail .btm_box{border-top: 1px dashed #aaa;margin-top:13px;padding-top:13px}
+.otp_login .mail .code_re button{text-decoration: underline;color: #343d8e;margin-left: 4px}
+
+.security_center .login_sel{padding: 60px 73px;letter-spacing: -0.025em}
+.login_sel .sel_info{text-align: left;font-size: 14px;line-height: 24px;color:#333;font-weight: bold}
+.login_sel .sel_box .bg_box{display: inline-block;width: 350px;height: 244px;border-radius: 7px;box-sizing: border-box;text-align: left;padding: 23px 20px 30px;margin: 28px 0 0}
+.login_sel .sel_box .tit{display: block;color: #343d8e;font-size: 16px;line-height: 26px}
+.login_sel .sel_box .txt{line-height: 24px}
+.login_sel .sel_box .btn_blue{width: 80px;height: 34px;line-height: 33px;margin-left: 16px;float: left}
+.login_sel .mail_tit{font-weight: bold;line-height: 34px;margin-top: 14px}
+.login_sel .mail_box .mail_txt{color: #343d8e;line-height: 21px}
+.login_sel .mail_box .mail_txt.undline{text-decoration: underline;padding-left: 2px}
+.login_sel .mail_box .btn_change{display: inline-block;width: 40px;height: 21px;color: #3c4790; border: 1px solid #3c4790;background: #fff;margin-left: 9px}
+.login_sel .btn_box{line-height: 34px}
+.login_sel .mail_box + .btn_box{margin-top: 15px}
+
+.mcode_box .mail_txt{padding-left: 1px;line-height: 24px;display: inline-block;width: 190px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap} /*200731 추가*/
+.mcode_box .btn_codego{width: 93px;height: 24px;border: 1px solid #3c4790;color: #3c4790;font-size: 11px;letter-spacing: -0.05em} /*200731 추가*/

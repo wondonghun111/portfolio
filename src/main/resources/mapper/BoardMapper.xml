@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="BoardMapper">
+	<!-- 게시판 생성 -->
+	<insert id="create">
+		INSERT INTO Board(
+			title,
+			contect,
+			writer
+		) values(
+			#{title},
+			#{contect},
+			#{writer}
+		)
+	</insert>
+</mapper>

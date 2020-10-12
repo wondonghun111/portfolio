@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.login_wrap #container{margin-top:37px}
+
+/*로그인 정보 입력 페이지*/
+.content.login{margin:205px auto 233px}
+.login_wrap .login_page{width:700px;height:300px;margin:0 auto ;border:2px #3c4790 solid;border-radius:3px}
+.login_inputbox{float:left;background:#fff}
+.login_inputbox .int.bg{height:41px;border:none}
+.login_inputbox .inner{width:290px;padding:25px 56px 0}
+.login_inputbox .inner input:first-of-type,.bg_box .form_box input:first-of-type{margin-top:0px}
+.login_inputbox .inner input.id:first-of-type{margin-top:20px}
+.login_inputbox .inner input,.bg_box .form_box input{margin-top:7px}
+
+/*페이지 메뉴*/
+.page_menu{margin:0 0 37px -8px}
+.page_menu li{float:left;width:50%}
+.page_menu.three li{width:33.3%}
+.page_menu.four li{width:25%}
+.pmenu{display:block;height:56px;line-height:56px;margin-left:8px;border:2px #aaabab solid;border-radius:10px;background:#aaabab;font-size:16px;color:#fff;text-align:center;text-shadow: 0px -1px #909292}
+.pmenu.on{border-color:#000;background:#fff;color:#000;font-weight:bold;text-shadow:none}
+
+/*아이디 찾기*/
+.login_wrap .con.innerbox .bg_box{margin-bottom:0;padding:46px 0 46px}
+.login_wrap .member_out .con.innerbox .bg_box{margin-bottom:0;padding:36px 0 42px}
+.login_wrap .info_txt{padding-top:0;margin-top:6px;color:#333;line-height:22px}
